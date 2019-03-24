@@ -1,0 +1,20 @@
+{
+    "name": "adobug",
+    "version": "1.11.0",
+    "description": "Debugger/Logger for Adobe Creative Cloud Apps",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon index.js",
+        "start": "node index.js"
+    },
+    "author": "Marcin Polak (MapoART) mapoart@gmail.com",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^6.2.0",
+        "express": "^4.16.4"
+    },
+    "devDependencies": {
+        "nodemon": "^1.18.10"
+    }
+}
